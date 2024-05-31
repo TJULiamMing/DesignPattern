@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func singleton_test() {
 	for i := 0; i < 5; i++ {
 		go Singleton.GetlazySingleton()
 	}
@@ -22,9 +22,14 @@ func main() {
 		go Singleton.GetonceSingleton()
 	}
 
+	return
+
+}
+func main() {
+	singleton_test()
+
 	_, err := fmt.Scanln()
 	if err != nil {
 		return
 	}
-
 }
