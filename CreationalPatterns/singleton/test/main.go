@@ -22,8 +22,6 @@ func main() {
 		go singleton.GetonceSingleton()
 	}
 
-	return
-
 	_, err := fmt.Scanln()
 	if err != nil {
 		return
