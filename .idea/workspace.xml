@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="单例测试模块化">
-      <change afterPath="$PROJECT_DIR$/CreationalPatterns/factorymethod/test/main.go" afterDir="false" />
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="实现简单工厂和工厂方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreationalPatterns/Singleton/hungrySingleton.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/singleton/hungrySingleton.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreationalPatterns/Singleton/lazySingleton.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/singleton/lazySingleton.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreationalPatterns/Singleton/onceSingleton.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/singleton/onceSingleton.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreationalPatterns/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/singleton/test/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreationalPatterns/factorymethod/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/factorymethod/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreationalPatterns/factorymethod/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/factorymethod/product.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern",
+    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern/CreationalPatterns/factorymethod",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +83,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CreationalPatterns/factorymethod" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CreationalPatterns/factorymethod" />
       <recent name="$PROJECT_DIR$/CreationalPatterns/singleton" />
@@ -155,7 +155,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单例模式" />
     <MESSAGE value="单例测试模块化" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例测试模块化" />
+    <MESSAGE value="实现简单工厂和工厂方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现简单工厂和工厂方法" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
