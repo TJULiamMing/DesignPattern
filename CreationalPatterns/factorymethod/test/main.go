@@ -8,18 +8,12 @@ import (
 // 工厂方法
 func main() {
 
-	f := &factorymethod.BallFactory{}
-
-	basetball, _ := f.MakeProduct("basketball")
+	bf := &factorymethod.BasketballFactory{}
+	basetball, _ := bf.MakeProduct()
 	fmt.Println(basetball.Use())
 
-	soccer, _ := f.MakeProduct("soccer")
+	sf := &factorymethod.SoccerFactory{}
+	soccer, _ := sf.MakeProduct()
 	fmt.Println(soccer.Use())
 
-	tennis, e := f.MakeProduct("tennis")
-	if e != nil {
-		fmt.Println(e.Error())
-	} else {
-		fmt.Println(tennis.Use())
-	}
 }
