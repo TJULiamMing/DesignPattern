@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="总结简单工厂、工厂方法、抽象工厂">
-      <change afterPath="$PROJECT_DIR$/CreationalPatterns/builder/builer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreationalPatterns/builder/director.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreationalPatterns/builder/villabuilder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="实现生成器模式">
+      <change beforePath="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +167,8 @@
     <MESSAGE value="实现简单工厂和工厂方法" />
     <MESSAGE value="区别工厂方法和抽象工厂" />
     <MESSAGE value="总结简单工厂、工厂方法、抽象工厂" />
-    <option name="LAST_COMMIT_MESSAGE" value="总结简单工厂、工厂方法、抽象工厂" />
+    <MESSAGE value="实现生成器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现生成器模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
