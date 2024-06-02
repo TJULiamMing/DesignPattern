@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="实现生成器模式">
-      <change beforePath="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" afterDir="false" />
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="生成器模式注释">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,16 +93,7 @@
       <recent name="$PROJECT_DIR$/CreationalPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build designPattern/CreationalPatterns/builder/test">
-    <configuration name="go build designPattern" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="designPattern" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build designPattern/CreationalPatterns/prototype/test">
     <configuration name="go build designPattern/CreationalPatterns/builder/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,6 +110,15 @@
       <package value="designPattern/CreationalPatterns/factorymethod/test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/CreationalPatterns/factorymethod/test/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build designPattern/CreationalPatterns/prototype/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="designPattern/CreationalPatterns/prototype/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/CreationalPatterns/prototype/test/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build designPattern/CreationalPatterns/singleton/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/prototype/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/builder/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/factorymethod/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/singleton/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/test" />
-        <item itemvalue="Go 构建.go build designPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,8 @@
     <MESSAGE value="区别工厂方法和抽象工厂" />
     <MESSAGE value="总结简单工厂、工厂方法、抽象工厂" />
     <MESSAGE value="实现生成器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现生成器模式" />
+    <MESSAGE value="生成器模式注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成器模式注释" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
