@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="生成器模式注释">
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="原型模式">
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/composite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/folder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/test/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +65,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultGoTemplateProperty": "Go File",
     "Go 构建.go build designPattern.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/composite/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/builder/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/factorymethod/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/prototype/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/singleton/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,7 +78,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern/CreationalPatterns/factorymethod",
+    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern/ArchitecturePatterns/composite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +89,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ArchitecturePatterns/composite" />
       <recent name="$PROJECT_DIR$/CreationalPatterns/factorymethod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +100,16 @@
       <recent name="$PROJECT_DIR$/CreationalPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build designPattern/CreationalPatterns/prototype/test">
+  <component name="RunManager" selected="Go 构建.go build designPattern/ArchitecturePatterns/composite/test">
+    <configuration name="go build designPattern/ArchitecturePatterns/composite/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="designPattern/ArchitecturePatterns/composite/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/composite/test/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build designPattern/CreationalPatterns/builder/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -130,22 +146,13 @@
       <filePath value="$PROJECT_DIR$/CreationalPatterns/singleton/test/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build designPattern/CreationalPatterns/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="designPattern/CreationalPatterns/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/CreationalPatterns/test/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/composite/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/prototype/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/builder/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/factorymethod/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/singleton/test" />
-        <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +176,8 @@
     <MESSAGE value="总结简单工厂、工厂方法、抽象工厂" />
     <MESSAGE value="实现生成器模式" />
     <MESSAGE value="生成器模式注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成器模式注释" />
+    <MESSAGE value="原型模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="原型模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
