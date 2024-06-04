@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="原型模式">
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/composite.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/folder.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/composite/test/main.go" afterDir="false" />
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="组合模式">
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/adapter/test/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern/ArchitecturePatterns/composite",
+    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,7 +174,8 @@
     <MESSAGE value="实现生成器模式" />
     <MESSAGE value="生成器模式注释" />
     <MESSAGE value="原型模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="原型模式" />
+    <MESSAGE value="组合模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="组合模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
