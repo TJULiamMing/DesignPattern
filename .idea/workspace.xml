@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="桥接模式">
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="装饰器模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     &quot;Go 构建.go build designPattern/ArchitecturePatterns/adapter/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build designPattern/ArchitecturePatterns/bridge/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build designPattern/ArchitecturePatterns/composite/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build designPattern/ArchitecturePatterns/decorator/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build designPattern/CreationalPatterns/builder/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build designPattern/CreationalPatterns/factorymethod/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build designPattern/CreationalPatterns/prototype/test.executor&quot;: &quot;Run&quot;,
@@ -98,7 +99,7 @@
       <recent name="$PROJECT_DIR$/CreationalPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build designPattern/ArchitecturePatterns/bridge/test">
+  <component name="RunManager" selected="Go 构建.go build designPattern/ArchitecturePatterns/decorator/test">
     <configuration name="go build designPattern/ArchitecturePatterns/adapter/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,13 +127,13 @@
       <filePath value="$PROJECT_DIR$/ArchitecturePatterns/composite/test/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build designPattern/CreationalPatterns/builder/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build designPattern/ArchitecturePatterns/decorator/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="designPattern/CreationalPatterns/builder/test" />
+      <package value="designPattern/ArchitecturePatterns/decorator/test" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/CreationalPatterns/builder/test/main.go" />
+      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/decorator/test/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build designPattern/CreationalPatterns/prototype/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/decorator/test" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/bridge/test" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/adapter/test" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/composite/test" />
         <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/prototype/test" />
-        <item itemvalue="Go 构建.go build designPattern/CreationalPatterns/builder/test" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,8 @@
     <MESSAGE value="组合模式" />
     <MESSAGE value="适配器模式" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="装饰器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="装饰器模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
