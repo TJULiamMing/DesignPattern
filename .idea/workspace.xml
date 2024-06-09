@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="代理模式">
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="享元模式">
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/dress.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/dressFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/game.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/player.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/test/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,12 +70,15 @@
     "Go 构建.go build designPattern/ArchitecturePatterns/bridge/test.executor": "Run",
     "Go 构建.go build designPattern/ArchitecturePatterns/composite/test.executor": "Run",
     "Go 构建.go build designPattern/ArchitecturePatterns/decorator/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/facade/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test.executor": "Run",
     "Go 构建.go build designPattern/ArchitecturePatterns/proxy/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/builder/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/factorymethod/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/prototype/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/singleton/test.executor": "Run",
     "Go 构建.go build designPattern/CreationalPatterns/test.executor": "Run",
+    "Go 构建.go build main.go.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -100,25 +108,7 @@
       <recent name="$PROJECT_DIR$/CreationalPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build designPattern/ArchitecturePatterns/facade/test">
-    <configuration name="go build designPattern/ArchitecturePatterns/adapter/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="designPattern/ArchitecturePatterns/adapter/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/adapter/test/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build designPattern/ArchitecturePatterns/bridge/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="designPattern/ArchitecturePatterns/bridge/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/bridge/test/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test">
     <configuration name="go build designPattern/ArchitecturePatterns/decorator/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -137,6 +127,15 @@
       <filePath value="$PROJECT_DIR$/ArchitecturePatterns/facade/test/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build designPattern/ArchitecturePatterns/flyweight/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="designPattern/ArchitecturePatterns/flyweight/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/flyweight/test/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build designPattern/ArchitecturePatterns/proxy/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -146,13 +145,22 @@
       <filePath value="$PROJECT_DIR$/ArchitecturePatterns/proxy/test/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="designPattern" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/proxy/test/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test" />
+        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/facade/test" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/proxy/test" />
         <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/decorator/test" />
-        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/bridge/test" />
-        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/adapter/test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +190,9 @@
     <MESSAGE value="桥接模式" />
     <MESSAGE value="装饰器模式" />
     <MESSAGE value="代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
+    <MESSAGE value="外观模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
