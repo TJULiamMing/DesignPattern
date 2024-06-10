@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="享元模式">
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/dress.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/dressFactory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/game.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/player.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchitecturePatterns/flyweight/test/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="享元模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
