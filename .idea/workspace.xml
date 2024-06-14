@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="责任链模式">
+    <list default="true" id="ec3dc5c3-7b76-422f-b434-d7a7521e7459" name="更改" comment="命令模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,43 +56,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go 构建.go build designPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/adapter/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/bridge/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/composite/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/decorator/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/facade/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/ArchitecturePatterns/proxy/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/BehavioralPattern/chainOfResponsibility/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/BehavioralPattern/strategy/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/BehavioralPattern/template/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/CreationalPatterns/builder/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/CreationalPatterns/factorymethod/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/CreationalPatterns/prototype/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/CreationalPatterns/singleton/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build designPattern/CreationalPatterns/test.executor&quot;: &quot;Run&quot;,
-    &quot;Go 构建.go build main.go.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/didi/GolandProjects/DesignPattern&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Go&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build designPattern.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/adapter/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/bridge/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/composite/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/decorator/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/facade/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test.executor": "Run",
+    "Go 构建.go build designPattern/ArchitecturePatterns/proxy/test.executor": "Run",
+    "Go 构建.go build designPattern/BehavioralPattern/chainOfResponsibility/test.executor": "Run",
+    "Go 构建.go build designPattern/BehavioralPattern/commnd/test.executor": "Run",
+    "Go 构建.go build designPattern/BehavioralPattern/iterator/test.executor": "Run",
+    "Go 构建.go build designPattern/BehavioralPattern/strategy/test.executor": "Run",
+    "Go 构建.go build designPattern/BehavioralPattern/template/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/builder/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/factorymethod/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/prototype/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/singleton/test.executor": "Run",
+    "Go 构建.go build designPattern/CreationalPatterns/test.executor": "Run",
+    "Go 构建.go build main.go.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/didi/GolandProjects/DesignPattern",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Go"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ArchitecturePatterns/composite" />
@@ -106,16 +108,7 @@
       <recent name="$PROJECT_DIR$/CreationalPatterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build designPattern/BehavioralPattern/chainOfResponsibility/test">
-    <configuration name="go build designPattern/ArchitecturePatterns/flyweight/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="designPattern/ArchitecturePatterns/flyweight/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/flyweight/test/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build designPattern/BehavioralPattern/iterator/test">
     <configuration name="go build designPattern/BehavioralPattern/chainOfResponsibility/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -123,6 +116,24 @@
       <package value="designPattern/BehavioralPattern/chainOfResponsibility/test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/BehavioralPattern/chainOfResponsibility/test/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build designPattern/BehavioralPattern/commnd/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="designPattern/BehavioralPattern/commnd/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/BehavioralPattern/commnd/test/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build designPattern/BehavioralPattern/iterator/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="designPattern/BehavioralPattern/iterator/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/BehavioralPattern/iterator/test/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build designPattern/BehavioralPattern/strategy/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -143,22 +154,13 @@
       <filePath value="$PROJECT_DIR$/BehavioralPattern/template/test/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="designPattern" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ArchitecturePatterns/proxy/test/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build designPattern/BehavioralPattern/iterator/test" />
+        <item itemvalue="Go 构建.go build designPattern/BehavioralPattern/commnd/test" />
         <item itemvalue="Go 构建.go build designPattern/BehavioralPattern/chainOfResponsibility/test" />
         <item itemvalue="Go 构建.go build designPattern/BehavioralPattern/template/test" />
         <item itemvalue="Go 构建.go build designPattern/BehavioralPattern/strategy/test" />
-        <item itemvalue="Go 构建.go build designPattern/ArchitecturePatterns/flyweight/test" />
-        <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +206,8 @@
     <MESSAGE value="策略模式" />
     <MESSAGE value="模版模式" />
     <MESSAGE value="责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="责任链模式" />
+    <MESSAGE value="命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
